@@ -1,1 +1,16 @@
-
+.main{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap: 40px;
+    font-size: 1.5rem;
+    z-index: 33;
+    .principal_buttons{
+        background-color: black;
+        color: var(--bg-color);
+        text-align: center;
+        padding: 20px;
+        margin-top: 100px;
+        border-radius: 30px;
+    }
+}

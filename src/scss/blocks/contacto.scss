@@ -1,0 +1,24 @@
+.contacto{
+    background-color: black;
+    height: 200px;
+    color: var(--bg-color);
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    .gmail{
+        :first-child{
+            color: red;
+        }
+        :nth-child(2){
+            color: white;
+        }
+    }
+    .ig{
+        :first-child{
+            color: purple;
+        }
+        :nth-child(2){
+            color: white;
+        }
+    }
+}
